@@ -5,6 +5,9 @@ header {
     padding: 1em;
     border-bottom: 20px black;
 }
+header img {
+    width: 160px;
+}
 nav {
     display: flex;
     align-items: left;
@@ -19,8 +22,20 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 28%;
     height: fit-content;        
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+main {
+    display: flex;
+}
+section {
+    display: flex;
+  
 }
 aside {
     width: 30%;
@@ -45,6 +60,7 @@ aside div li {
 footer {
     height: fit-content;
     display: flex;
+    justify-content: space-between;
     border-top: 2px solid black;
     padding: 1em;
     color: black;
@@ -52,11 +68,17 @@ footer {
 }
 
 .contenedor {
-    width: 60%;
+    width: 50%;
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
   
+}
+article {
+    width: 40%;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 .contenedor div {
@@ -83,6 +105,6 @@ section div img{
     height: 40%;
   
 }
-h2 {
+article h2 {
     border-top: 2px solid black;
 }
